@@ -1,13 +1,25 @@
 <script lang="ts">
-    console.log("loaded...")
-    import Hero from '$lib/hero.svelte';
-    import Edu from '$lib/edu.svelte';
-    import Exp from '$lib/exp.svelte';
+    import Hero from '$lib/Hero.svelte';
+    import Nav from '$lib/Nav.svelte';
+    import About from '$lib/About.svelte';
+    import Education from '$lib/Education.svelte';
+    import Projects from '$lib/Projects.svelte';
+    import Experience from '$lib/Experience.svelte';
+	import Skills from '$lib/Skills.svelte';
+	import Contact from '$lib/Contact.svelte';
+	import Footer from '$lib/Footer.svelte';
 </script>
 
-<Hero />
-<Edu />
-<Exp />
+<Nav />
 
+<main class="max-w-max-width mx-auto px-base md:px-margin-desktop">
+    <Hero />
+    <About />
+    <Education />
+    <Projects /> 
+    <Experience />
+    <Skills />
+    <Contact />
+</main>
 
-
+<Footer />

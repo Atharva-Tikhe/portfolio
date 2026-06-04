@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Company } from "$lib/types/institutes";
-    import Experience from "$lib/experience.svelte";
+    import Experience from "$lib/Experience.svelte";
 	
     const {companies} = $props<{companies: Array<Company>}>();
 

@@ -1,14 +1,149 @@
-@import 'tailwindcss';
-@plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/typography';
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
 
 @theme {
-  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-sans: "Public Sans", system-ui, sans-serif;
   --color-primary-bg: rgba(104, 31, 62, 1);
-  --color-ncl-blue: rgba(0, 57, 101);
-  --color-ncl-red: rgba(221, 25, 54);
+  --color-ncl-blue: rgba(0, 57, 101, 1);
+  --color-ncl-red: rgba(221, 25, 54, 1);
+
+  /* --- Colors (Converted to RGBA) --- */
+  --color-surface-container-highest: rgba(227, 226, 225, 1);
+  --color-primary: rgba(0, 87, 150, 1);
+  --color-error: rgba(186, 26, 26, 1);
+  --color-on-secondary-container: rgba(4, 114, 61, 1);
+  --color-error-container: rgba(255, 218, 214, 1);
+  --color-surface-container-high: rgba(233, 232, 231, 1);
+  --color-on-tertiary-fixed-variant: rgba(70, 71, 71, 1);
+  --color-primary-fixed-dim: rgba(160, 202, 255, 1);
+  --color-on-primary: rgba(255, 255, 255, 1);
+  --color-inverse-surface: rgba(47, 49, 48, 1);
+  --color-on-tertiary-fixed: rgba(27, 28, 28, 1);
+  --color-on-surface-variant: rgba(65, 71, 81, 1);
+  --color-on-tertiary: rgba(255, 255, 255, 1);
+  --color-surface-variant: rgba(227, 226, 225, 1);
+  --color-surface-tint: rgba(0, 97, 166, 1);
+  --color-on-secondary-fixed-variant: rgba(0, 82, 42, 1);
+  --color-tertiary-fixed-dim: rgba(199, 198, 198, 1);
+  --color-primary-fixed: rgba(210, 228, 255, 1);
+  --color-surface-dim: rgba(218, 218, 217, 1);
+  --color-secondary-fixed: rgba(154, 246, 181, 1);
+  --color-background: rgba(250, 249, 248, 1);
+  --color-secondary-fixed-dim: rgba(126, 218, 154, 1);
+  --color-secondary: rgba(0, 109, 58, 1);
+  --color-tertiary-container: rgba(109, 109, 109, 1);
+  --color-surface-container-lowest: rgba(255, 255, 255, 1);
+  --color-link-blue: rgba(29, 112, 184, 1);
+  --color-on-error-container: rgba(147, 0, 10, 1);
+  --color-outline: rgba(113, 119, 130, 1);
+  --color-on-secondary-fixed: rgba(0, 33, 14, 1);
+  --color-surface: rgba(250, 249, 248, 1);
+  --color-tertiary-fixed: rgba(228, 226, 225, 1);
+  --color-success-green: rgba(0, 112, 60, 1);
+  --color-on-background: rgba(26, 28, 28, 1);
+  --color-tertiary: rgba(85, 85, 85, 1);
+  --color-surface-container-low: rgba(244, 243, 242, 1);
+  --color-surface-bright: rgba(250, 249, 248, 1);
+  --color-inverse-primary: rgba(160, 202, 255, 1);
+  --color-secondary-container: rgba(151, 243, 178, 1);
+  --color-outline-variant: rgba(193, 199, 210, 1);
+  --color-on-primary-container: rgba(233, 241, 255, 1);
+  --color-primary-container: rgba(29, 112, 184, 1);
+  --color-surface-container: rgba(239, 238, 237, 1);
+  --color-text-main: rgba(11, 12, 12, 1);
+  --color-on-tertiary-container: rgba(242, 240, 239, 1);
+  --color-on-secondary: rgba(255, 255, 255, 1);
+  --color-inverse-on-surface: rgba(241, 240, 239, 1);
+  --color-on-primary-fixed-variant: rgba(0, 73, 126, 1);
+  --color-bg-surface: rgba(255, 255, 255, 1);
+  --color-border-subtle: rgba(177, 180, 182, 1);
+  --color-on-surface: rgba(26, 28, 28, 1);
+  --color-on-primary-fixed: rgba(0, 28, 55, 1);
+  --color-on-error: rgba(255, 255, 255, 1);
+
+  /* --- Border Radius --- */
+  --radius-default: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-full: 9999px;
+
+  /* --- Spacing --- */
+  --spacing-base: 8px;
+  --spacing-gutter: 24px;
+  --spacing-section-gap: 80px;
+  --spacing-margin-desktop: 48px;
+  --spacing-max-width: 1100px;
+  --spacing-margin-mobile: 16px;
+
+  /* --- Font Families --- */
+  --font-display-xl: "Public Sans";
+  --font-body-md: "Public Sans";
+  --font-headline-md: "Public Sans";
+  --font-headline-lg: "Public Sans";
+  --font-label-md: "Public Sans";
+  --font-body-lg: "Source Serif 4";
+  --font-label-sm: "Public Sans";
+  --font-headline-lg-mobile: "Public Sans";
+
+  /* --- Font Sizes & Composite Properties --- */
+  --text-display-xl: 48px;
+  --text-display-xl--line-height: 56px;
+  --text-display-xl--letter-spacing: -0.02em;
+  --text-display-xl--font-weight: 700;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--font-weight: 600;
+
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 40px;
+  --text-headline-lg--font-weight: 700;
+
+  --text-label-md: 16px;
+  --text-label-md--line-height: 20px;
+  --text-label-md--font-weight: 600;
+
+  --text-body-lg: 19px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 400;
+
+  --text-label-sm: 14px;
+  --text-label-sm--line-height: 18px;
+  --text-label-sm--font-weight: 600;
+
+  --text-headline-lg-mobile: 28px;
+  --text-headline-lg-mobile--line-height: 36px;
+  --text-headline-lg-mobile--font-weight: 700;
 }
 
+/* --- Global Custom Styles --- */
 body {
   @apply font-sans font-normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.timeline-line {
+  width: 2px;
+  background-color: var(--color-primary); /* Linked directly to your theme variable */
+}
+
+.skill-badge {
+  border-left: 4px solid;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.reveal-up {
+  opacity: 0;
+  transform: translateY(20px);
 }
