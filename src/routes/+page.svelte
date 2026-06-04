@@ -16,8 +16,8 @@
     <Hero />
     <About />
     <Education />
-    <Projects /> 
     <Experience />
+    <Projects /> 
     <Skills />
     <Contact />
 </main>

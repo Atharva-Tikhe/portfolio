@@ -9,19 +9,19 @@
 <p class="font-body-lg text-body-lg mb-10 max-w-xl mx-auto">Open for collaboration on bioinformatics tooling, research pipelines, and computational biology projects.</p>
 </div>
 <div class="flex flex-wrap justify-center gap-gutter ">
-<a class="flex flex-col items-center gap-2 group" href="mailto:email@example.com">
+<a class="flex flex-col items-center gap-2 group" href="mailto:atharvatikhe22@gmail.com">
 <div class="w-16 h-16 flex items-center justify-center bg-primary text-white transition-all duration-300 group-hover:bg-[#004a80] group-hover:-translate-y-1">
 <span class="material-symbols-outlined text-3xl">mail</span>
 </div>
 <span class="font-label-md text-label-md">Email</span>
 </a>
-<a class="flex flex-col items-center gap-2 group" href="#">
+<a class="flex flex-col items-center gap-2 group" href="https://www.github.com/Atharva-Tikhe" target="_blank">
 <div class="w-16 h-16 flex items-center justify-center bg-text-main text-white transition-all duration-300 group-hover:bg-primary group-hover:-translate-y-1">
 <span class="material-symbols-outlined text-3xl">code</span>
 </div>
 <span class="font-label-md text-label-md">GitHub</span>
 </a>
-<a class="flex flex-col items-center gap-2 group" href="#">
+<a class="flex flex-col items-center gap-2 group" href="https://www.linkedin.com/in/atharva-tikhe-986587154/" target="_blank">
 <div class="w-16 h-16 flex items-center justify-center bg-link-blue text-white transition-all duration-300 group-hover:bg-[#004a80] group-hover:-translate-y-1">
 <span class="material-symbols-outlined text-3xl">groups</span>
 </div>
