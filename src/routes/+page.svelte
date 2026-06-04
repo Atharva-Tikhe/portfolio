@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Hero from '$lib/Hero.svelte';
+    import Hero from '$lib/hero.svelte';
     import Nav from '$lib/Nav.svelte';
     import About from '$lib/About.svelte';
     import Education from '$lib/Education.svelte';
